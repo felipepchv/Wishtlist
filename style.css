@@ -42,7 +42,8 @@ header{
     border-radius: 30px;
     margin-left: auto;
   margin-right: auto;
-}
+ }
+
 th, td {
     width: 25%;
     text-align: center;
@@ -59,13 +60,35 @@ footer{
    font-size: 2rem;
     text-align: center;
     margin-inline-end: auto;
-    margin-left: 10rem;
+    /*margin-left: 10rem;*/
 }
 
-@media screen and (max-width:480px){
+@media (max-width:480px){
   .tabla{
-    display: flex;
-    tab-size: auto;
+    width: 100px;
+    max-width: 400px;
+    margin: auto;
   }
-   
+  table td{
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+   table img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+   }
+   body {
+    max-width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.3;
+  }
+ 
+  .naruto{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
 }
