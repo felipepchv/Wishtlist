@@ -13,6 +13,7 @@ body{
     min-height: 100vh;
     font-size: 1.5rem;
     text-align: center;
+    margin: auto;
 
 }
 
@@ -58,28 +59,13 @@ footer{
    font-size: 2rem;
     text-align: center;
     margin-inline-end: auto;
+    margin-left: 10rem;
 }
 
-@media screen and (min-width:600px){
-    h1{
-        text-align: center;
-    }
-    .tabla, .cosmo, .naruto{
-        position: flex;
-    }
-    
-    .cosmo, .Imagen, .tabla, footer{
-        width: auto;
-    }
-    
-   *{
-        size-adjust: auto;
-    }
-    footer{
-        padding-top: 4rem;
-        font-family: sans-serif;
-       font-size: 2rem;
-        text-align: center;
-        margin-inline-end: auto;
-    }
+@media screen and (max-width:480px){
+  .tabla{
+    display: flex;
+    tab-size: auto;
+  }
+   
 }
